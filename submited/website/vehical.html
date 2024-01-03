@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vehicle Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="fpass.css" type="text/css">
+</head>
+<body>
+<br>
+<div class="heder">
+<div class="row">
+  <center><img src="ministry.png" width="700px" height="150px"></center>
+</div>
+</div>
+<br><br><br>
+<center><h1 class="reg"><b>REGISTRATION</b></h1></center><br>
+<center><h5>Already have an Account?&nbsp;&nbsp;<a href="Login.html"><b>Login here</b></a></h5></center><br><br><br>
+ 
+
+        <div class="container">
+            <div class="box">
+                <h5 class="topic">Vehicle Details</h5>
+          <div class="row">
+            <form class="row g-3" action="success.html">
+        <div class="col-md-8">
+          <label for="inputChno" class="form-label">Chassi No</label>
+          <input type="text" class="form-control" id="inputChno" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputvno" class="form-label">Vehicle No</label>
+          <input type="text" class="form-control" id="inputvno" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputvtype" class="form-label" >Vehical Type</label>
+          <select id="inputvtype" class="form-select">
+            <option selected>BIKE</option>
+            <option>3WHEEL</option>
+            <option>QUADRICYCLE</option>
+            <option>CAR</option>
+            <option>VAN</option>
+            <option>BUS</option>
+            <option>LORRY</option>
+            <option>SPECIAL PURPOSE VEHICLE</option>
+            <option>LAND VEHICLE</option>
+            
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="inputftype" class="form-label" >Fuel Type</label>
+          <select id="inputftype" class="form-select" required>
+            <option selected>Petrol</option>
+            <option>Diesel</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">
+              Agree for the terms & conditions
+            </label>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="col-12">
+         <button type="submit" class="btn btn-primary" >Register </button>&nbsp;&nbsp;&nbsp;&nbsp;
+        
+      </div>
+    </form>
+      </div>
+      </div>
+  </div> 
+
+  <br><br>   
+              
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>   
+          
+</body>
+</html>

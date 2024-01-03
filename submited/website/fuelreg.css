@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(246, 239, 228);
+}
+.size button{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(236, 149, 18);
+}
+.regb{
+padding-left: 450px;
+}
+.size button:hover{
+    border-color: red;
+    color: red; 
+
+}
+.listinfo ul li {
+list-style: none;
+
+}
+.listinfo ul li:before{
+    content: "\2714";
+    color: rgb(221, 59, 19);
+    font-weight: bold;
+}

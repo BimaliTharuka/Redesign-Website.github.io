@@ -1,0 +1,209 @@
+.navigation{
+    margin-top: 0px;
+
+    background: black;
+    color: white;
+   }
+   .navigation nav ul li a{
+       color:white ;
+   }
+   
+   .navigation nav ul li a:hover{
+        color:rgb(218, 62, 28) ;
+   }
+   nav{
+        width: 90%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+   }
+   nav ul li{
+    display:inline-block;
+    margin: 10px 20px;
+    font-size: 19px;
+   }
+   .logo{
+        cursor: pointer;
+   }
+   nav ul li a{
+       text-decoration: none;
+     /*   color: var(--primarycolor);*/
+   
+   }
+   .org{
+       font-size: 55px;
+       position: relative;
+       letter-spacing: 6px;
+   }
+.bottomlogo{
+    background-color: rgb(49, 47, 47);
+    height: 170px;
+    width: 100%vh;
+}
+#logo{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.bottomlogo h5{
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.bottomlogo h6{
+    color: white;
+    padding-left: 30px;
+}
+#gps{
+    padding-left: 15px;
+    padding-top:5px ;
+}
+.details{
+    background-color: rgb(49, 47, 47);
+    height: 110px;
+    width: 100%vh;
+    margin: auto; 
+    padding-top: 20px;
+    padding-left: 30px;
+    display: flex;
+}
+.details h6{
+    color: white;
+    padding-top: 15PX;
+}
+.reserved{
+    height: 40px;
+    width: 100%vh;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding-top: 5px;
+    margin: auto;
+    padding-left: 30px;
+}
+.aboutus{
+    text-align: center;
+    position: relative;
+    color: black;
+}
+.aboutus h2{
+   
+    color: rgb(225, 119, 20);
+    position: relative;
+    font-size: 10vw;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.1vw rgb(11, 10, 10);
+}
+.heading{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.head{
+    letter-spacing: 3px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-5%);
+   
+}
+.text{
+
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    
+    blinkTestCursor 500ms steps(40) infinite normal;
+    
+    }
+
+    @keyframes typewriter{
+
+        from{
+        
+            width: 0;
+        
+        }
+        
+        to{
+        
+            width: 8em;
+        
+        }
+        
+        }
+        @keyframes blinkTextCursor{
+
+            from{
+        
+                border-right-color: rgb(0, 0, 0);
+        
+            }
+        
+            to{
+        
+                border-right-color:transparent;
+        
+            }
+        
+        }
+
+    #para{
+        text-align: center;
+    }
+
+    h3 {
+        color: maroon;
+        text-align: center;
+    }
+    p{
+        text-align: left;
+    }
+    
+    #sign ul li{
+        list-style: none;
+    }
+    #sign ul li:before{
+        content: "\2714";
+        color: black;
+        font-weight: bold;
+
+    }
+    body{
+        background-color: rgb(247, 229, 203);
+    }
+    
+.icons img{
+     width: 45px;
+    height: 45px;
+    
+    }
+    .facebook{
+     position: fixed;
+     bottom: 500px;
+    right: 10px;
+    }
+    .twitter{
+     position: fixed;
+     bottom: 440px;
+    right: 10px;
+    }
+    .youtube{
+     position: fixed;
+     bottom: 390px;
+     right: 10px;
+    }
+    .linkedin{
+     position: fixed;
+     bottom: 340px;
+     right: 10px;
+    }
+    .icons{
+     cursor: pointer;
+     transition: all .4s;
+    }
+    .icons.active {
+     bottom:60px;
+    }
+    
+    
